@@ -12,7 +12,7 @@ To design and analyze a high-volume Futures & Options dataset (~2.5M rows) and e
 
 ---
 
-## ⚙️ Approach
+##  Approach
 
 Due to MySQL limitations with large datasets, data processing was performed using **Polars**, which provides efficient in-memory computation.
 
@@ -42,7 +42,7 @@ Supports multi-exchange data (NSE, BSE, MCX)
 
 ---
 
-## 📈 Key Analysis
+##  Key Analysis
 
 ### 1. Top Open Interest Contracts
 Identifies most liquid contracts.
@@ -67,7 +67,7 @@ Total open interest over time.
 
 ---
 
-## ⚡ Optimizations
+## Optimizations
 
 - Index on timestamp, symbol, exchange
 - Partitioning by expiry date
@@ -75,7 +75,7 @@ Total open interest over time.
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 
 - Python (Polars)
 - Google Colab
